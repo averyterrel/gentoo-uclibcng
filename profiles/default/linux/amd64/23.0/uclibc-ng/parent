@@ -1,0 +1,3 @@
+gentoo:arch/amd64
+gentoo:releases/23.0
+../../../../../features/uclibc-ng

@@ -1,0 +1,19 @@
+# Copyright 2025 Avery Terrel <averymt@proton.me>
+# Distributed under the terms of the BSD 0-clause license
+
+PORTAGE_LIBC="uclibc-ng"
+ELIBC="uclibc_ng"
+
+#FEATURES="sandbox sfperms strict"
+
+#USE="pic unicode -berkdb -gdbm"
+#BOOTSTRAP_USE="${BOOTSTRAP_USE} -berkdb -gdbm"
+
+# All libraries are in /lib or /usr/lib
+#SYMLINK_LIB="no"
+#FEATURES="-multilib-strict"
+
+# TODO: fix so musl doesn't generate this for all packages
+# that use a charset, it causes package collisons.
+# Note: we use a full path for locale.alias for bug #799437
+#INSTALL_MASK="charset.alias /usr/share/locale/locale.alias"

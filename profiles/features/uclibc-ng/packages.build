@@ -1,0 +1,5 @@
+# Copyright 2025 Avery Terrel <averymt@proton.me>
+# Distributed under the terms of the BSD 0-clause license
+
+# This file lists extra packages needed to build for
+# a stage 1 based on this profile.

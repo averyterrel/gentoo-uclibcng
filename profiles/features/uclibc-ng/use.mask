@@ -1,0 +1,7 @@
+# Copyright 2025 Avery Terrel <averymt@proton.me>
+# Distributed under the terms of the BSD 0-clause license
+
+# Select the correct ELIBC
+-elibc_uclibc_ng
+elibc_musl
+elibc_glibc

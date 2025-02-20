@@ -1,0 +1,5 @@
+# Copyright 2025 Avery Terrel <averymt@proton.me>
+# Distributed under the terms of the BSD 0-clause license
+
+CHOST="x86_64-pc-linux-uclibc"
+ABI="uclibc"

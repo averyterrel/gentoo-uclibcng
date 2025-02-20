@@ -1,0 +1,134 @@
+# vim: set ts=8 noet ft=conf:
+# Copyright 2025 Avery Terrel <averymt@proton.me>
+# Distributed under the terms of the BSD 0-clause license
+
+#############################################
+# This is a list of valid profiles for each architecture.  This file is used by
+# repoman when doing a repoman scan or repoman full.
+# DO NOT ADD PROFILES WITH A "die" or "exit" IN THEM OR IT KILLS REPOMAN
+#
+#layout:
+#arch		profile_directory						status
+
+# Alpha Profiles
+# @MAINTAINER: averymt@proton.me
+#alpha		default/linux/alpha/23.0					stable
+
+
+# AMD64 Profiles
+# @MAINTAINER: averymt@proton.me
+amd64		default/linux/amd64/23.0					stable
+#amd64		default/linux/amd64/23.0/hardened				stable
+#amd64		default/linux/amd64/23.0/hardened/selinux			stable
+#amd64		default/linux/amd64/23.0/llvm					stable
+#amd64		default/linux/amd64/23.0/no-multilib				stable
+#amd64		default/linux/amd64/23.0/no-multilib/hardened			stable
+#amd64		default/linux/amd64/23.0/x32					dev
+
+
+# ARM Profiles
+# @MAINTAINER: averymt@proton.me
+#arm		default/linux/arm/23.0						stable
+#arm		default/linux/arm/23.0/armv4					dev
+#arm		default/linux/arm/23.0/armv4t					dev
+#arm		default/linux/arm/23.0/armv5te					dev
+#arm		default/linux/arm/23.0/armv6j_hf				stable
+#arm		default/linux/arm/23.0/armv6j_hf/hardened			dev
+#arm		default/linux/arm/23.0/armv6j_hf/hardened/selinux		dev
+#arm		default/linux/arm/23.0/armv6j_sf				stable
+#arm		default/linux/arm/23.0/armv6j_sf/hardened			dev
+#arm		default/linux/arm/23.0/armv6j_sf/hardened/selinux		dev
+#arm		default/linux/arm/23.0/armv7a_hf				stable
+#arm		default/linux/arm/23.0/armv7a_hf/hardened			dev
+#arm		default/linux/arm/23.0/armv7a_hf/hardened/selinux		dev
+#arm		default/linux/arm/23.0/armv7a_sf				stable
+#arm		default/linux/arm/23.0/armv7a_sf/hardened			dev
+#arm		default/linux/arm/23.0/armv7a_sf/hardened/selinux		dev
+
+
+# ARM64 Profiles
+# @MAINTAINER: averymt@proton.me
+#arm64		default/linux/arm64/23.0					stable
+#arm64		default/linux/arm64/23.0/hardened				dev
+#arm64		default/linux/arm64/23.0/hardened/selinux			dev
+#arm64		default/linux/arm64/23.0/llvm					dev
+
+
+# ARM64 Profiles (big-endian)
+# @MAINTAINER: averymt@proton.me
+# big-endian profile intentionally does not contain all flavours
+# until it's lightly tested.
+#arm64		default/linux/arm64/23.0/big-endian				exp
+
+
+# HPPA Profiles
+# @MAINTAINER: averymt@proton.me
+#hppa		default/linux/hppa/23.0/hppa1.1					stable
+#hppa		default/linux/hppa/23.0/hppa2.0					stable
+
+
+# M68K Profiles
+# @MAINTAINER: averymt@proton.me
+#m68k		default/linux/m68k/23.0						exp
+
+
+# MIPS Profiles
+# @MAINTAINER: averymt@proton.me
+#mips		default/linux/mips/23.0/mipsel/o32_sf				stable
+#mips		default/linux/mips/23.0/mipsel/o32				stable
+#mips		default/linux/mips/23.0/mipsel/n32				stable
+#mips		default/linux/mips/23.0/mipsel/n64				stable
+#mips		default/linux/mips/23.0/mipsel/multilib/n32			dev
+#mips		default/linux/mips/23.0/mipsel/multilib/n64			dev
+#mips		default/linux/mips/23.0/o32_sf					stable
+#mips		default/linux/mips/23.0/o32					stable
+#mips		default/linux/mips/23.0/n32					stable
+#mips		default/linux/mips/23.0/n64					stable
+#mips		default/linux/mips/23.0/multilib/n32				dev
+#mips		default/linux/mips/23.0/multilib/n64				dev
+
+
+# PPC profiles
+# @MAINTAINER: averymt@proton.me
+#ppc		default/linux/ppc/23.0						stable
+
+
+# PPC64 profiles
+# @MAINTAINER: averymt@proton.me
+#ppc64		default/linux/ppc64/23.0					stable
+
+
+# PPC64LE profiles
+# @MAINTAINER: averymt@proton.me
+#ppc64		default/linux/ppc64le/23.0					stable
+
+
+# RISC-V Profiles
+# @MAINTAINER: averymt@proton.me
+#riscv		default/linux/riscv/23.0/rv32/ilp32					exp
+#riscv		default/linux/riscv/23.0/rv32/ilp32d					exp
+#riscv		default/linux/riscv/23.0/rv64/lp64					stable
+#riscv		default/linux/riscv/23.0/rv64/lp64d					stable
+#riscv		default/linux/riscv/23.0/rv64/multilib					exp
+
+
+# SPARC Profiles
+# @MAINTAINER: averymt@proton.me
+#sparc		default/linux/sparc/23.0					stable
+#sparc		default/linux/sparc/23.0/64ul					stable
+
+
+# x86 Profiles
+# @MAINTAINER: averymt@proton.me
+#x86		default/linux/x86/23.0/i686					stable
+#x86		default/linux/x86/23.0/i686/hardened				stable
+#x86		default/linux/x86/23.0/i686/hardened/selinux			stable
+#x86		default/linux/x86/23.0/i486					stable
+#x86		default/linux/x86/23.0/i486/hardened				dev
+#x86		default/linux/x86/23.0/i486/hardened/selinux			dev
+
+# Local Variables:
+# mode: conf-space
+# tab-width: 8
+# indent-tabs-mode: t
+# End:
